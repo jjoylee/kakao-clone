@@ -1,0 +1,65 @@
+.top-header--transparent{
+  background-color: transparent;
+}
+
+.profile .profile__header{
+  background-image: url("https://st3.depositphotos.com/6504442/12859/i/950/depositphotos_128591580-stock-photo-dark-purple-polygonal-design-pattern.jpg");
+  height: 80vh;
+  background-color:red;
+  width: 100%;
+  position: relative;
+  top : -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container{
+  text-align: center;
+  bottom: -60px;
+  position: relative;
+}
+
+.profile__header-container img{
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input{
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile__actions{
+  display: flex;
+}
+
+.profile__action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile__action-circle{
+  background: #f2f2f2;
+  padding: 15px;
+  color: #523737;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile__action-title{
+  font-size: 12px;
+  font-weight: 600;
+}
